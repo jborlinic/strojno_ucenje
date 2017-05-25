@@ -1,4 +1,4 @@
-# machine_learning - *strojno učenje*
+# strojno učenje - *machine learning*
 
 
 To je repozitorij v katerem shranjujem kodo in "tutoriale", ki sem jih izdelal tekom svojega učenja tega področja.

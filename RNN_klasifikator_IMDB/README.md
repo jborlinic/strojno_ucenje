@@ -1,0 +1,10 @@
+## RNN klasifikator besedila
+
+Modeli ponavljajoče nevronske mreže so nastali za razumevanje zaporedno odvisnih (časovnih) naborov podatkov. Osnovni primer takšnih podatkov so besedila. Naloge, kot so: razumevanje stavčnih sestavov, navezujočih se besed, razumevanje pomena besedila ipd. spadaj v zelo zahtevno področje računalništva. RNN-ji predstavljajo orodje za reševanje takšnih nalog in so zelo efektivni.
+
+V tem primeru sem sestavil preprost RNN-model, ki poizkuša klasificirati opise filmov v dve kategoriji: pozitivni in negativni opisi. Za pomoč pri implementaciji sem uporabil [ta primer](https://github.com/fchollet/keras/blob/master/examples/imdb_lstm.py), zato je tudi implementacija zelo podobna.  
+
+Nabor podatkov, ki vsebuje opise filmov je eden izmed osnovnih naborov podatkov v knjižnici Keras, gre za pred-procesiran nabor podatkov.  
+Natančneje je to [nabor podatkov](https://keras.io/datasets/#imdb-movie-reviews-sentiment-classification), ki vsebuje 25000 opisov filmov iz spletne strani [IMDB](http://www.imdb.com/). Podatki so klasificirani kot pozitivni ali negativni in so že pred-procesirani. Vsak opis je bil spremenjen v zaporedje besednih indeksov. Ta indeksiranost besed upošteva povprečno frekvenco besed v celotnem naboru podatkov (npr. index 3 je koda tretje najbolj pogoste besede, 0 je koda za vse nepoznane besede).
+
+__Opomba:__ Kot vsi nabori podatkov, ima tudi ta svoje prednosti in slabosti. Je zelo enostaven za uporabo, saj je že spremenjen v primerno obliko. Lahko je ločiti med manj/bolj pogostimi besedami. Hkrati, pa nam ne pove kaj dosti o našem modelu, saj ne poznamo funkcije, ki je vektorizirala (zakodirala) opise in zato tudi ne moremo dobiti dejanskega opisa ali njegovega pomena. Nabor podatkov tako služi le osnovnemu ovrednotenju modela na osnovi natančnosti.

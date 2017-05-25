@@ -1,0 +1,5 @@
+## Autoencoder - Samodejni kodirnik
+
+Samodejn kodirnik (_ang. autoencoder_) je tip nevronske mreže, ki se uporablja za ustvarjanje slik, glasbe in za samodejno klasifikacijo nabora podatkov. Sestavljen je iz dveh delov, kodirnega in dekodirnega dela, ki pa sta praktično enaka, le da je zaporedje slojev obratno. Tako lahko uporabimo vse, do sedaj znane, nevronske mreže za njegovo implementacijo.  
+Kot primer, sem implementiral dva samodejna kodirnika, enega na osnovi navadne nevroneke mreže in drugega na osnovi konvolucijske nevronske mreže. Implementacija osnovnega je v datoteki *mnist_ae.py*, konvolucijski pa je v datoteki *mnist_conv_ae.py*.
+Samodejni kodirniki so eni izmed bolj popularnih primerov nenadzorovanega učenja. Ta, ki je moj prvi primer nenadzorovanega učenja, uporablja že dobro znan nabor podatkov [MNIST](http://yann.lecun.com/exdb/mnist/). Zaenkrat še ima model težave z neenakomerno porazdelitvijo slik v razrede, se pa nauči ločiti določene oblike, (npr. ukrivljan črta -št. 0, 2, 6, 8, 9, ravna črta št. 1,4,7).

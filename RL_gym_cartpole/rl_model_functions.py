@@ -64,8 +64,7 @@ def train_model(train_X, train_Y, lr=1e-3, bs=100, epochs=5, model=False):
         model = neural_network_model(input_size=len(train_X[0]))
 
     model.compile(loss='mean_absolute_error', 
-                  optimizer='RMSprop', 
-                  learning_rate=lr)
+                  optimizer='RMSprop')
 
 
     model.fit(train_X, train_Y, epochs=epochs, batch_size=bs)

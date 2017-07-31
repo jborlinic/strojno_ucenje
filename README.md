@@ -97,5 +97,5 @@ Projekt sofinancirata Republika Slovenija in Evropska unija iz
 
 [Evropskega socialnega sklada](http://www.eu-skladi.si/). 
 
-![Logo](https://github.com/jborlinic/strojno_ucenje/logo.png)
+![Logo](https://github.com/jborlinic/strojno_ucenje/blob/master/logo.png)
 

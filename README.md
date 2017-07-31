@@ -93,6 +93,9 @@ Vsebuje opis in pokomentirano kodo.
 
 
 
-Projekt sofinancirata Republika Slovenija in Evropska unija iz Evropskega socialnega sklada. ![../../../../../Material/Word%20templatei/Dopisni%20listi/Grafike/novi/RGB/JPG/DP%20SRIP+MZSI+ESS-SLO-08.jpg](file:///C:/Users/UPORAB~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+Projekt sofinancirata Republika Slovenija in Evropska unija iz
 
- 
+[Evropskega socialnega sklada](http://www.eu-skladi.si/). 
+
+![Logo](https://github.com/jborlinic/strojno_ucenje/logo.png)
+

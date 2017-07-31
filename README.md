@@ -86,3 +86,13 @@ Vsebuje opis in pokomentirano kodo.
     -  primer Open AI gym [CartPole-v0](https://gym.openai.com/envs)
 - Implementacija DDPG (deep deterministic policy gradient) odela za reševanje zveznih RL nalog.
     -  primer Open AI gym [MountainCarContinuous-v0](https://gym.openai.com/envs)
+
+
+
+
+
+
+
+Projekt sofinancirata Republika Slovenija in Evropska unija iz Evropskega socialnega sklada. ![../../../../../Material/Word%20templatei/Dopisni%20listi/Grafike/novi/RGB/JPG/DP%20SRIP+MZSI+ESS-SLO-08.jpg](file:///C:/Users/UPORAB~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+
+ 
